@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Bungee&family=Caveat&family=Fredericka+the+Great&family=Lobster&family=Pacifico&family=Press+Start+2P&family=Shadows+Into+Light&family=Special+Elite&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="hadong.css">   
+    <title>Web tìm trọ</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">SWEET HOME!</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="Trang chủ.html">Trang Chủ</a></li>
+                <li><a href="#">Tin Tức</a></li>
+                <li><a href="#">Liên Hệ</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#" class="login-btn" onclick="openModal('loginModal')">Đăng Nhập</a>
+                <a href="#" class="register-btn" onclick="openModal('registerModal')">Đăng Ký</a>
+            </div>
+        </nav>
+    </header>
+        
+        
+        <div class="container1">
+            <div class="left-block">
+                <div class="image-container">
+                    <button id="prevBtn" class="nav-button" onclick="prevImage()">&#10094;</button>
+                    <img id="largeImage" src="https://cdn.chotot.com/Ix9xnfZCAS_o2CtU1q-x5SH80lOzlEStYJQ65rHlgNo/preset:view/plain/2f924270ced43511815e98085a9bf9f6-2883492167005083052.jpg" alt="Large Image" class="large-image">
+                    <button id="nextBtn" class="nav-button" onclick="nextImage()">&#10095;</button>
+                </div>
+                <div class="small-images">
+                    <img src="https://cdn.chotot.com/Ix9xnfZCAS_o2CtU1q-x5SH80lOzlEStYJQ65rHlgNo/preset:view/plain/2f924270ced43511815e98085a9bf9f6-2883492167005083052.jpg" alt="Small Image 1" class="small-image" onclick="changeImage(0)">
+                    <img src="https://cdn.chotot.com/mJQzDCjwNZKmkLllNakiKiQHeF2b4_geNp4spmp30oU/preset:view/plain/5f847ae3160a8c9c8f41985fd93e65dc-2883492180114264461.jpg" alt="Small Image 2" class="small-image" onclick="changeImage(1)">
+                    <img src="https://cdn.chotot.com/qwkcmm3qO048BeTH7k1N_eqDaaUtrBcfjG2Tf-2vt5o/preset:view/plain/e4a2f731079d471e1a2c43e1d8e18017-2883492279105968750.jpg" alt="Small Image 3" class="small-image" onclick="changeImage(2)">
+                    <img src="https://cdn.chotot.com/Ix9xnfZCAS_o2CtU1q-x5SH80lOzlEStYJQ65rHlgNo/preset:view/plain/2f924270ced43511815e98085a9bf9f6-2883492167005083052.jpg" alt="Small Image 4" class="small-image" onclick="changeImage(3)">
+                </div>
+                <div class="info-text">
+                    <p><strong style="font-size: 25px;font-family: 'Nunito', sans-serif;">Căn hộ cho thuê Giá Chỉ từ 4,5tr tại Vinhomes Ocean Park Stu,1N,2N,3N.</strong></p>
+                    <p style="margin-top: 10px;"><strong style="color: red;font-size: 20px;">4.500.000 đ/tháng</strong></p>
+                    <p style="margin-top: 40px;"><strong style="font-size: 15px;font-family: 'Nunito', sans-serif;">Đặc điểm bất động sản</strong></p>
+                    <p>
+                        <span style="margin-right: 350px;">🛒 Cho thuê</span> <span>🛋️ Tình trạng nội thất: Nội thất đầy đủ</span>
+                        
+                        <br>💸 Số tiền cọc: 40.000.000đ <span style="margin-left: 245px;">🏠 Diện tích: 50m²</span>
+                        <br> 🏬 Loại hình căn hộ:Căn hộ dịch vụ, mini <span style="margin-left: 145px;">#️⃣ Phòng: 9A1</span>
+                        <br> 🚽: Số phòng vệ sinh:  2<span style="margin-left: 272px;">🛌 Số phòng ngủ: 2</span>
+
+
+                    </p>
+                    <p style="margin-top: 40px;margin-bottom: 20px;"><strong style="color: rgb(25, 24, 24);">Mô tả chi tiết</strong></p>
+                    
+                    <p style="margin: 10px;">
+                        Cho Thuê căn hộ E1006, tòa tháp Đông- Tòa nhà Golden Westlake (tầng 10 phòng số 06); Địa chỉ 151 Thụy Khuê, quận Ba Đình
+
+                        <br>- Căn hộ 3 mặt thoáng, hướng chính nhìn toàn diện Lăng Chủ Tịch Hồ Chí Minh, một mặt nhìn xuống bể bơi.
+                        <br>- Diện tích căn hộ: 115 m2, gồm 2 phòng ngủ khép kín đầy đủ tiện nghi, 2 nhà vệ sinh, phòng khách liền bếp với diện tích 65m;
+                        <br>- Được sử dụng miễn phí bể bơi, sauna, phòng tập GYM
+                        <br>- Nội thất đầy đủ, sang trọng (sopha, bếp, lò visong, bàn ăn, lò nướng, giường, tủ, điều hòa, máy giặt……)
+                        <br>- Giá cho thuê: 1.500 USD net thu về
+                        <br>- Bên thuê tự chịu các chi phí: đậu xe, phí truyền hình cáp, phí internet, phí điện, nước và gas.
+                    </p>
+                </div>
+
+            </div>
+            <div class="right-block">  
+                <div class="profile-info">
+                    <div>
+                        <img src="https://muaban.net/images/account/avatar-default.png" alt="avatar" class="avatar">
+                    </div>
+                    <div class="profile-name">
+                        <p>Đăng Quân - Môi giới</p>
+                    </div>
+                </div>
+                
+                <button id="callButton" style="font-size: 23px; background-color: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; margin-bottom: 20px;cursor: pointer;">
+                    <i class="fa fa-phone"></i> 0976545678
+                
+
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
+                    <button style="font-size: 19px; background-color: #2588d4; color: white; border: none; padding: 10px 20px; border-radius: 5px;margin-bottom: 20px;cursor: pointer; ">
+                    <i class="fa fa-envelope"></i>    dangquanchothuetro1@gmail.com</button>
+                </a>
+                
+                <button class="heart-button" onclick="toggleHeart(this)" style="font-size: 24px; border: none; padding: 10px 20px; border-radius: 5px;margin-bottom: 20px;">
+                    <i class="fa fa-heart"></i> Yêu thích
+                </button>
+                <div>
+                    <a href="https://ads.google.com/intl/vi_vn/start/overview-adon/?subid=vn-vi-adon-awa-dis-a-phi!o3~AMsySZaK_U-siNXemk94NwcMWbBE~383534461~574535146~197213014~OPTID-6662985&utm_source=awa&utm_medium=dv360&dclid=CjgKEAjwy8i0BhCd2tHgrb61wWwSJACDtzqLBnufroQpxabU7haRIdBKt7xUu4-foWPTjZM_0eBMtPD_BwE&gclid=CjwKCAjwy8i0BhAkEiwAdFaeGJAFNFbl2s-j2KBOXiDz5BtxZZuacjWUt7bQjyapJDVnxxDS_-C8WRoCa_8QAvD_BwE">
+                        <img src="https://s0.2mdn.net/simgad/4012987656149393245" alt="" style="margin-bottom: 100px;cursor: pointer;">
+                    </a>      
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="image-gallery">
+        <h2 style="text-align: center;">Tin đăng tương tự</h2>
+        <div class="gallery-container">
+                <div class="gallery-item">
+                    <a href="Hà Đông1.html">
+                        <img src="https://cdn.chotot.com/3yJLBq0UUMgm1aYzs3K7oklylhAT7g4wOLjIOwLga5E/preset:view/plain/8f014a93c359149e2b25804946587b81-2876250152859985177.jpg" alt="Image 1">
+                        <p style="color: black;text-decoration: none;">Phòng đẹp full đồ cửa sổ thoáng bếp riêng tách biệt Yên Xá</p>
+                        <p style="color:rgba(0, 0, 0, 0.5);text-align: center;font-size: small;">📍 Hà Đông</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="Cầu Giấy.html">
+                        <img src="https://cdn.chotot.com/hPOaMHzPVwYoqf-dQgg7-f-prDV18t_b9_bwju5FOb8/preset:view/plain/f9c561973b3842e55907c1f7f6cd5176-2886946637155967875.jpg" alt="Image 1">
+                        <p style="color: black;">phòng trọ 62 Trần Bình, giờ tự do, khoá vân tay, thang máy, hầm xe, bv24/24</p>
+                        <p style="color:rgba(0, 0, 0, 0.5);text-align: center;font-size: small;">📍 Cầu Giấy</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="Tây Hồ1.html">
+                        <img src="https://cdn.chotot.com/zJcxOWusN_04L3i2BjiHL6kJ3-0Wl5PDVCjf2GixemQ/preset:view/plain/edafe101d34f946c5afc529ca506cd37-2869622030696898540.jpg" alt="Image 1">
+                        <p style="color: black;">Cho thuê căn hộ view hồ Tây đẹp full đồ 40m2</p>
+                        <p style="color:rgba(0, 0, 0, 0.5);text-align: center;font-size: small;">Tây Hồ</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="Tây Hồ2.html">
+                        <img src="https://cdn.chotot.com/3eZcSVBWcH0YHrvZftxqz-EPYqOu5E_3WV7zU98Nmg0/preset:view/plain/776f207b04363236d8b9492665741665-2860575006126597282.jpg" alt="Image 1">
+                        <p style="color: black;">CHO THUÊ CĂN HỘ 2 NGỦ ĐẦY ĐỦ ĐỒ,NGÕ OTO YÊN TĨNH, QUẢNG AN, TÂY HỒ.</p>
+                        <p style="color:rgba(0, 0, 0, 0.5);text-align: center;font-size: small;">📍 Tây Hồ</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="Đống Đa.html">
+                        <img src="https://cdn.chotot.com/8Hlcw-kFf60DpOO1TKhveITbBz5zkQNw6STi5bLC7yY/preset:view/plain/61a28356728361a16d654a64cec6788d-2887091537360796859.jpg" alt="Image 1">
+                        <p style="color: black;">8 NGÕ 120 TRƯỜNG CHINH - ĐỐNG ĐA + FULL ĐỒ + TẦNG CAO VIEW THOÁNG Ở NGAY</p>
+                        <p style="color:rgba(0, 0, 0, 0.5);text-align:center ;font-size: small;">📍 Đống Đa</p>
+                    </a>
+                </div>
+            
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-section">
+                <h4>Giới thiệu</h4>
+                <p>Chúng tôi cung cấp thông tin về các phòng trọ trên toàn quốc.</p>
+            </div>
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+                <p>Email: cuutoivoi@khongbietlambaocao.com</p>
+                <p>Điện thoại: 0123 456 789</p>
+            </div>
+            <div class="footer-section">
+                <h4>FOLLOW US</h4>
+                <a href="https://www.facebook.com/EasyLuv.3010?locale=vi_VN"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://www.instagram.com/lovee.seekwr/"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+            <div class="footer-section">
+                <h4>Đăng ký nhận tin</h4>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Nhập email của bạn">
+                    <button type="submit">Đăng ký</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Trang web của tôi. Đã đăng ký bản quyền.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="scrips.js"></script>
+    <script src="badinh.js"></script>

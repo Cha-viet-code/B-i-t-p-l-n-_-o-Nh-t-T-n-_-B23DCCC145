@@ -1,0 +1,277 @@
+/* header/ */
+a {
+    text-decoration: none;
+}
+
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+ul#main-menu {
+    display: flex;
+}
+ul#main-menu a {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color:rgb(0, 70, 130);
+    display: block;
+    border-right: 1px solid #000;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 92px 150px;
+}
+
+.left-block, .right-block {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-block {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.right-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Khoảng cách giữa thông tin hồ sơ và các nội dung khác */
+}
+
+.avatar {
+    width: 50px; /* Đặt kích thước cho ảnh đại diện */
+    height: 50px;
+    border-radius: 50%; /* Làm cho ảnh tròn */
+}
+
+.profile-name {
+    margin-left: 10px; /* Khoảng cách giữa ảnh và tên */
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.large-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#prevBtn {
+    left: 0;
+}
+
+#nextBtn {
+    right: 0;
+}
+
+.small-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.small-image {
+    width: 25%;
+    height: auto;
+    cursor: pointer;
+    margin-right: 5px; /* Cách nhau 5px giữa các hình ảnh nhỏ */
+    height: auto;
+}
+
+.small-image:last-child {
+    margin-right: 0; /* Xóa khoảng cách ở hình ảnh cuối cùng */
+}
+
+.info-text {
+    margin-top: 10px; /* Khoảng cách giữa các hình ảnh nhỏ và văn bản */
+}
+
+.info-text p {
+    margin: 5px 0; /* Khoảng cách giữa các dòng văn bản */
+}
+
+.info-text strong {
+    font-weight: bold; /* Chữ đậm */
+}
+
+.info-text .price {
+    color: red; /* Màu đỏ cho giá tiền */
+}
+.heart-button {
+    font-size: 48px; /* Kích thước của biểu tượng */
+    color: grey; /* Màu sắc ban đầu của biểu tượng */
+    background: none; /* Loại bỏ nền mặc định của button */
+    border: none; /* Loại bỏ viền mặc định của button */
+    cursor: pointer; /* Con trỏ chuột sẽ là hình bàn tay khi di chuột qua button */
+    transition: color 0.3s; /* Hiệu ứng chuyển màu khi thay đổi màu sắc */
+    outline: none; /* Loại bỏ viền khi focus vào button */
+}
+.heart-button.red {
+    color: red; /* Màu sắc của biểu tượng khi được nhấp vào */
+}
+
+.image-gallery {
+    margin: 200px 0;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: nowrap; /* Đặt ảnh nằm ngang */
+    overflow-x: auto; /* Cuộn ngang nếu cần */
+    padding-left: 90px; /* Thụt vào bên trái */
+    padding-right: 20px; /* Thụt vào bên phải */
+}
+
+.gallery-item {
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.gallery-item img {
+    width: 200px; /* Chiều rộng của từng ảnh */
+    height: auto;
+}
+
+.gallery-item p {
+    margin-top: 10px; /* Khoảng cách giữa ảnh và văn bản */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer-section p, .footer-section a, .footer-section form {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-section form button {
+    padding: 10px;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.footer-section form button:hover {
+    background-color: #ff4c3b;
+}
+
+.footer-section a {
+    display: flex;
+    align-items: center;
+}
+
+.footer-section a i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    font-size: 12px;
+}
