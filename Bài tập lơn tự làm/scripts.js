@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { id: 12, name: 'Phòng trọ 12', price: 3200000, area: 80, address: 'Hoàn Kiếm', image: 'https://cdn.chotot.com/WnOCCKQwvK0tcehdFORGwii2c_TFiaTKfZVaK-RN6Bw/preset:view/plain/2847fb9f26c7212bf9d288cd7be1908f-2884798976400868191.jpg',link: "Hoàn Kiếm2.html" },
         { id: 13, name: 'Phòng trọ 13', price: 35000000, area: 65, address: 'Đống Đa', image: 'https://cdn.chotot.com/SKGRV4wwJxsKXslZLDLFrK3_mR5Aeo_KyAnE3oSHfHE/preset:view/plain/fa688f31f736ee512b4388bd1cc9b08f-2792296531963960842.jpg',link: "Đống Đa2.html" },
         { id: 14, name: 'Phòng trọ 14', price: 4500000, area: 54, address: 'Thanh Xuân', image: 'https://cdn.chotot.com/z8m47uOqqYRYoKdNRO46DBSapm7DwS8gbgWC35be6p0/preset:view/plain/1984ccac9f0659296c6da1d72fa33292-2876846921673870887.jpg', link: "Thanh Xuân3.html" },
-        { id: 15, name: 'Phòng trọ 15', price: 40000000, area: 50, address: 'Ba Đình', image: 'https://cdn.chotot.com/Ix9xnfZCAS_o2CtU1q-x5SH80lOzlEStYJQ65rHlgNo/preset:view/plain/2f924270ced43511815e98085a9bf9f6-2883492167005083052.jpg' },
+        { id: 15, name: 'Phòng trọ 15', price: 40000000, area: 50, address: 'Ba Đình', image: 'https://cdn.chotot.com/Ix9xnfZCAS_o2CtU1q-x5SH80lOzlEStYJQ65rHlgNo/preset:view/plain/2f924270ced43511815e98085a9bf9f6-2883492167005083052.jpg',link: "Ba Đình.html" },
     ];
 
     const itemsPerPage = 3;
